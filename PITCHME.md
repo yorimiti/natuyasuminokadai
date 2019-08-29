@@ -30,6 +30,8 @@ webgl
 - 球を動かして黄色のオブジェクトを集め,すべて集めるとクリア
 赤いオブジェクトにあたるとやり直し
 
+---
+
 ### 使用したサイトなど
 https://codegenius.org/open/courses/27/sections/155
 
