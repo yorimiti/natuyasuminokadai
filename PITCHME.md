@@ -35,11 +35,8 @@ webgl
         // もしも「Floor」という「Tag」がついたオブジェクトにぶつかったら（条件）
         if (other.gameObject.CompareTag("Floor"))
         {
-
-            // isJumpingの箱の中のデータをfalseにする。
-            isJumping = false;
+        
         }
-    }
 ---
 
 ### 使用したサイトなど
