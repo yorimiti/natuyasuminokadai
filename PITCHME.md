@@ -1,4 +1,4 @@
-タイトル　collect
+タイトル　pointgeter
 
 
 ---
