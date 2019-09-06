@@ -30,8 +30,6 @@ webgl
 
 ---
   void OnCollisionEnter(Collision other)
-    {
-
         // もしも「Floor」という「Tag」がついたオブジェクトにぶつかったら（条件）
         if (other.gameObject.CompareTag("Floor"))
         {
