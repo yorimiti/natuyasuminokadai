@@ -29,6 +29,18 @@ webgl
 赤いオブジェクト当たるか、ステージ外に出るとリセット
 
 ---
+  void OnCollisionEnter(Collision other)
+    {
+
+        // もしも「Floor」という「Tag」がついたオブジェクトにぶつかったら（条件）
+        if (other.gameObject.CompareTag("Floor"))
+        {
+
+            // isJumpingの箱の中のデータをfalseにする。
+            isJumping = false;
+        }
+    }
+---
 
 ### 使用したサイトなど
 https://codegenius.org/open/courses/27/sections/155
